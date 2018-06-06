@@ -4,19 +4,19 @@ A starter template for React component libraries that are intended to be distrib
 
 **Technologies**
 
-* React
-* Webpack
-* Babel
-* Styled Components
-* Jest
-* Enzyme
+- React
+- Webpack
+- Babel
+- Styled Components
+- Jest
+- Enzyme
 
 ## How to Use This Repository as a Template
 
 1.  Clone the master branch of this repo with no commit history:
 
     ```
-    $ git clone --depth=1 --single-branch https://github.com/tcrosen/react-lib.git <your new dir>
+    $ git clone --depth=1 --single-branch https://github.com/climax-media/react-lib.git <your new dir>
     $ cd <your new dir>
     ```
 
@@ -24,7 +24,7 @@ A starter template for React component libraries that are intended to be distrib
 
 ```diff
 -  "name": "my-react-ui",
-+  "name": "your-new-npm-package-name",
++  "name": "@climax-media/your-package-name",
 -  "version": "2.0.0",
 +  "version": "1.0.0",
 ```
@@ -41,7 +41,7 @@ A starter template for React component libraries that are intended to be distrib
 1.  Import components into your app:
 
     ```js
-    import Button from '<your-package-name>/lib/Button';
+    import Button from '@climax-media/<your-package-name>/lib/Button';
     ```
 
 ## Build Commands

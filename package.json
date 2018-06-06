@@ -1,12 +1,12 @@
 {
-  "name": "my-react-ui",
-  "version": "2.0.0",
+  "name": "@climax-media/my-react-ui",
+  "version": "1.0.0",
   "description": "A collection of themable React components.",
   "author": "Terry Rosen",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tcrosen/react-lib.git"
+    "url": "https://github.com/climax-media/react-lib"
   },
   "directories": {
     "lib": "./lib"
